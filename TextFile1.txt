@@ -1,0 +1,21 @@
+Antes o después de realizar el ejercicio, responder (explicando con sus palabras):
+1. ¿Qué es la sobrecarga de constructores?
+2. ¿Qué diferencia existe entre los cuatro constructores?
+3. ¿Qué significa utilizar constructores en cascada?
+4. ¿Qué ventaja tiene utilizar this(...)?
+5. ¿Por qué no es conveniente repetir la inicialización de los atributos en todos los constructores?
+6. ¿Qué es la sobrecarga de métodos?
+7. ¿Cómo puede existir más de un método con el mismo nombre?
+8. ¿Qué diferencia existe entre las tres versiones de AgregarPuntos()?
+
+
+
+Respuestas
+1. La sobrecarga de constructores permite definir multiples constructores con un mismo nombre agregando distintos parametros a ella distintas entre si
+2. La diferencia entre los 4 constructores es los parametros que ingreso en cada una para que se asignen a los atributos
+3. El constructor en cascada llama al constructor que mas se asemeja a la estructura de ese, se le dice "en cascada" porque se le agregan los pocos que ya tenian y se le suma la asignacion de nuevos parametros, pareciera como que va en cascada o escalera
+4. this(...) sirve para que los parametros ingresados en el nuevo constructor tenga en cuenta al constructor anterior para la asignacion a los atributos sin tener que repetir codigo o poner this. dentro de cada constructor e ir asignando los valores del constructor a los parametros nuevamente 
+5. Para esto se utiliiza el concepto de constructor en cascada, no es conveniente porque si en algun momento se quiere modificar algo a un atributo solo hay que modificarlo en una linea y no en todas en donde se encuentre y se eviten errores
+6. Es el llamado del metodo con ese nombre en el que permite llamar al mismo metodo y tenga diferente resultado en la instancia de algun objeto dependiendo de los parametros que se le pase para asignar (los que van entre "()")
+7. Puede existir añadiendo o quitando los parametros que se deben ingresar para llamar al metodo o modificando el orden de ingreso de las mismas
+8. No hay una diferencia de como se suman los puntos, los cambios son mas que nada si alguien decide agregarle una justificacion a los puntos o si decide sumarle una bonificacion de puntos, luego los puntos se suman igual en todas
